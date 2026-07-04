@@ -8,7 +8,6 @@ const generateOTP = () => {
 const hashOTP = async (otp) => {
   return bcrypt.hash(otp, 10);
 };
-//this is my module
 module.exports = {
   generateOTP,
   hashOTP,
