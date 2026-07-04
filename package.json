@@ -2,7 +2,7 @@
   "name": "auth_credentials",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "node src/server.js",
   "directories": {
     "doc": "docs",
     "test": "tests"
